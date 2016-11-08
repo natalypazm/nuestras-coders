@@ -1,9 +1,39 @@
 /* Inserta tu código aqui */
-div{
-	display: inline-block;
-	margin:10px;
-	-webkit-filter: contrast(75%);
+.title {
+    font-weight: bold;
+}
 
-	
+div.separator{
+    margin-bottom: 20px;
+    width: 50px;
+    height: 2px;
+    border-bottom: 2px solid #000;
+}
+
+.box {
+    
+    clear: both;
+}
+
+.box  .img{
+    position: relative;
+    float: left;
+    padding: 10px;
+}
+
+.box  .img span{
+    position: absolute;
+    bottom: 16px;
+    color: #FFF;
+    right: 15px;
+}
+
+.oscuro {
+    width: 211px;
+    height: 211px;
+    position: absolute;
+    top: 10px;
+    background: #000;
+    opacity: 0.3;
 }
 
